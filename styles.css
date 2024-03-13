@@ -1,0 +1,76 @@
+body{
+    background-color:  rgb(223, 223, 223);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 60px;
+  }
+  
+  .card {
+    border: 3px solid black; 
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-artist, .card-release-year, .card-genre, .card-album {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .card-description {
+    margin: 10px 0;
+
+  }
+  
+hr{
+  border-top: 2px solid #000000;
+
+
+}
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color:  #848ab6;
+    color: #0f0c38;
+    text-decoration: none;
+    border-radius: 3px;
+    }
+  
+  .btn:hover {
+    background-color: #4d5199;
+  }
+  
+  .header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #cfcfcf;
+    background-color: #3b4491;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  
+ 
+  }
